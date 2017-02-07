@@ -1,0 +1,172 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(img/bck.png);
+}
+
+.wrapper {
+}
+
+.row a {
+	display: block;
+    height: 100%;
+}
+
+.row:after {
+	margin-bottom: 20px;
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.row { display: inline-block; }
+* html .clearfix { height: 1%; }
+.row { display: block; }
+
+.info-block {
+	min-width: 350px;
+	float: left;
+	width: 40%;
+}
+
+.my-foto {
+	background: url('img/me.png') no-repeat center;
+	background-size: 150px 150px;
+	border-radius: 50%;
+	float: left;
+	margin: 30px 20px 5px 30px;
+	height: 150px;
+	width: 150px;
+	transition: all .1s ease-in-out;
+}
+
+.my-foto:hover {
+	transform: scale(1.15);
+	box-shadow: inset 0 0 70px rgba(0,0,0,1);
+}
+
+.info {
+	float: left;
+	margin-top: 20px;
+	color: white;
+	font-family: 'Cabin', Arial;
+	font-size: 15px;
+}
+
+.info-header {
+	font-size: 130%;
+}
+
+.info p {
+	transition: all .1s ease-in-out;
+}
+
+.info p:hover{
+	transform: scale(1.05);
+	cursor: default;
+	color: gray;
+}
+
+.services {
+	padding-top: 40px;
+	padding-right: 40px;
+	min-width: 400px;
+	float: left;
+	width: 60%;
+}
+
+.google {
+	background: url('img/google.png') no-repeat center;
+	background-size: 100px 100px;
+	border-radius: 50%;
+	float: left;
+	margin: auto;
+	height: 100px;
+	width: 25%;
+
+	transition: all .1s ease-in-out;
+}
+
+.google:hover {
+	transform: scale(1.2);
+}
+
+.gmail {
+	background: url('img/gmail.png') no-repeat center;
+	background-size: 66px 66px;
+	border-radius: 5%;
+	float: left;
+	height: 100px;
+	width: 25%;
+
+	transition: all .1s ease-in-out;
+}
+
+.gmail:hover {
+	transform: scale(1.2);
+}
+
+.translate {
+	background: url('img/translate.png') no-repeat center;
+	background-size: 66px 66px;
+	border-radius: 5%;
+	float: left;
+	height: 100px;
+	width: 25%;
+
+	transition: all .1s ease-in-out;
+}
+
+.translate:hover {
+	transform: scale(1.2);
+}
+
+.youtube {
+	background: url('img/youtube.png') no-repeat center;
+	background-size: 66px 45px;
+	border-radius: 5%;
+	float: left;
+	height: 100px;
+	width: 25%;
+
+	transition: all .1s ease-in-out;
+}
+
+.youtube:hover {
+	transform: scale(1.2);
+}
+
+.footer-container {
+	position: absolute;
+	right: 0;
+	bottom: 6px;
+	left: 0;
+}
+
+.footer {
+	border-radius: 30px;
+	padding-top: 8px;
+	height: 40px;
+	width:  40%;
+	min-width: 770px;
+	margin: 0 auto;
+	font-family: 'Josefin Sans', Arial;
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	position: relative;
+
+	transition: all .3s ease-in-out;
+
+}
+
+.footer:hover {
+	cursor: default;
+	box-shadow: 0 0 5px rgba(255,255,255,.5);
+}
+
